@@ -1,0 +1,172 @@
+/* Text */
+
+.text-primary {
+    color: #28a745;
+}
+
+.text-secondary {
+    color: #0284d0;
+}
+
+/* button & bg */
+ .btn {
+     cursor: pointer;
+     display: inline-block;
+     padding: 10px 30px;
+     background: #28a745;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .btn:hover {
+     opacity: 0.9;
+ }
+
+ .btn-outline {
+     background: transparent;
+     border: 1px solid #fff;
+ }
+
+ .btn-primary, .bg-primary {
+     background: #28a745;
+     color: white;
+ }
+
+ .btn-secondary, .bg-secondary {
+     background: #0284d0;
+     color: white;
+ }
+
+ .btn-dark, .bg-dark {
+     background: #333;
+     color: white;
+ }
+
+ .btn-light, .bg-light {
+     background: #f4f4f4;
+     color: #333;
+ }
+
+ /* flex items */
+
+ .flex-items {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     text-align: center;
+     height: 100%;
+ }
+
+ .flex-items > div {
+    padding: 20px;
+ }
+
+/* Flex column */
+
+.flex-columns .row {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+}
+
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column .column1,
+.flex-columns .column .column2 {
+    height: 100%;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column .column2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-columns .column .column2 h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.flex-columns .column .column2 p {
+    margin-bottom: 20px;
+}
+
+/* section header */
+
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header h2 {
+    font-size: 45px;
+    font-weight: lighter;
+    margin-bottom: 20px 0;
+}
+
+.section-padding {
+    padding: 20px;
+}
+
+/* flex grid */
+
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column {
+    flex: 25%;
+    /* max-width: 25%; */
+    padding: 0 4px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #28a745;
+}
+.footer .social {
+    margin-top: 20px;
+}
+
+.footer .social > * {
+    margin-right: 30px;
+}
